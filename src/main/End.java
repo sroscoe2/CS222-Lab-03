@@ -38,7 +38,8 @@ public class End {
 				// Done for you
 				teams.add(new SoccerTeam(name, wins, draws, losses));
 			}
-			s.close();
+			// TODO: once you fix the while loop, un-comment-out the following line.
+			// s.close();
 		
 
 		return teams;
